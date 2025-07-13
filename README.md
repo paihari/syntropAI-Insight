@@ -35,6 +35,47 @@ class Me:
         # Load personal summary
 ```
 
+### Simple Design in Layers
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    PRESENTATION LAYER                       │
+├─────────────────────────────────────────────────────────────┤
+│  Gradio Web Interface                                       │
+│  • Chat UI                                                  │
+│  • User interaction handling                                │
+└─────────────────────────────────────────────────────────────┘
+                                │
+                                ▼
+┌─────────────────────────────────────────────────────────────┐
+│                    APPLICATION LAYER                        │
+├─────────────────────────────────────────────────────────────┤
+│  Me Class (Agent Logic)                                     │
+│  • System prompt management                                 │
+│  • Conversation flow control                                │
+│  • Tool execution coordination                              │
+└─────────────────────────────────────────────────────────────┘
+                                │
+                                ▼
+┌─────────────────────────────────────────────────────────────┐
+│                    SERVICE LAYER                            │
+├─────────────────────────────────────────────────────────────┤
+│  External Services                                          │
+│  • OpenAI GPT-4o-mini API                                  │
+│  • Pushover Notification API                                │
+└─────────────────────────────────────────────────────────────┘
+                                │
+                                ▼
+┌─────────────────────────────────────────────────────────────┐
+│                    DATA LAYER                               │
+├─────────────────────────────────────────────────────────────┤
+│  Knowledge Base                                             │
+│  • LinkedIn PDF (./me/linkedin.pdf)                        │
+│  • Personal Summary (./me/summary.txt)                     │
+│  • Environment Variables (.env)                            │
+└─────────────────────────────────────────────────────────────┘
+```
+
 ### Knowledge Base
 
 The agent's knowledge comes from two primary sources:
