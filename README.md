@@ -2,6 +2,12 @@
 
 A conversational AI agent that represents Hariprasad Bantwal, providing an interactive chat interface for website visitors to learn about his career, background, skills, and experience.
 
+## Live Demo
+
+🚀 **Try the AI Agent Live**: [Chat with Hariprasad Bantwal](https://huggingface.co/spaces/paihari/syntropAI-Insight)
+
+The application is deployed on Hugging Face Spaces and ready for interaction!
+
 ## What This Does
 
 This project creates an AI-powered chat interface that:
@@ -148,12 +154,6 @@ The application launches a Gradio web interface where visitors can:
 - Learn about his skills and experience
 - Get in touch by providing their contact information
 - Have their questions answered in real-time
-
-## Live Demo
-
-🚀 **Try the AI Agent Live**: [Chat with Hariprasad Bantwal](https://huggingface.co/spaces/paihari/syntropAI-Insight)
-
-The application is deployed on Hugging Face Spaces and ready for interaction!
 
 ## Technical Stack
 
