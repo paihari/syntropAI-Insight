@@ -149,6 +149,12 @@ The application launches a Gradio web interface where visitors can:
 - Get in touch by providing their contact information
 - Have their questions answered in real-time
 
+## Live Demo
+
+🚀 **Try the AI Agent Live**: [Chat with Hariprasad Bantwal](https://huggingface.co/spaces/paihari/syntropAI-Insight)
+
+The application is deployed on Hugging Face Spaces and ready for interaction!
+
 ## Technical Stack
 
 - **Python**: Core application logic
